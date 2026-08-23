@@ -1,151 +1,162 @@
+<!-- Profile README for chl4890620123-collab -->
+
 <div align="center">
 
-# 👋 안녕하세요, 명헌입니다
+<img src="https://capsule-render.vercel.app/api?type=waving&height=210&text=MYUNGHEON&fontAlign=50&fontAlignY=38&desc=AI%20%C3%97%20Backend%20%C3%97%20Deployment&descAlign=50&descAlignY=58&animation=fadeIn" width="100%" alt="header" />
 
-### AI × Backend × Deployment
-
-**아이디어를 실제로 동작하는 서비스까지 구현합니다.**
-
-Frontend → Backend → AI → Database → Docker → Deployment  
-전체 흐름을 연결하는 개발을 좋아합니다.
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&center=true&vCenter=true&width=760&lines=Building+AI-powered+services;Spring+Boot+%2B+FastAPI+%2B+MariaDB;From+idea+to+Docker+deployment;Build+%C2%B7+Connect+%C2%B7+Deploy" alt="Typing SVG" />
+</a>
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=chl4890620123-collab&label=Profile%20Views&style=flat" alt="Profile Views" />
+<img src="https://komarev.com/ghpvc/?username=chl4890620123-collab&label=PROFILE+VIEWS&style=flat-square" alt="Profile Views" />
 
 </div>
 
----
+## 👋 About Me
 
-## 👨‍💻 About Me
+안녕하세요, **명헌**입니다.
 
-- 🤖 AI 기능을 실제 서비스에 연결하는 개발에 관심이 있습니다.
-- ⚙️ Spring Boot / FastAPI 기반 백엔드 시스템을 만들고 있습니다.
-- 🗄️ MariaDB를 활용한 데이터 구조와 서비스 흐름을 설계합니다.
-- 🐳 Docker와 GitHub Actions를 이용해 로컬 개발부터 실제 배포까지 연결합니다.
-- 🔗 API에 과도하게 종속되지 않는 낮은 결합도의 구조를 지향합니다.
-- 📊 단순 AI 응답보다 측정 가능한 데이터와 근거가 남는 시스템을 만들려고 합니다.
+저는 AI 기능을 데모에서 끝내지 않고 **실제로 사용할 수 있는 서비스 구조까지 연결하는 개발**을 좋아합니다.
+
+```text
+Idea → Frontend → Backend API → AI Service → Database → Docker → Deployment
+```
+
+- 🤖 AI 기능을 실제 서비스 흐름에 연결합니다.
+- ⚙️ Spring Boot / FastAPI 기반 백엔드 시스템을 구축합니다.
+- 🗄️ MariaDB를 활용해 데이터와 서비스 흐름을 설계합니다.
+- 🐳 Docker / GitHub Actions 기반 배포 자동화를 구성합니다.
+- 🔗 특정 API에 과도하게 종속되지 않는 낮은 결합도의 구조를 지향합니다.
+- 📊 단순한 LLM 응답보다 측정값·이력·근거가 남는 시스템을 선호합니다.
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🥋 [AITM — AI Taekwondo Master](https://github.com/chl4890620123-collab/Aitm)
+<div align="center">
 
-> 영상 기반 태권도 자세 분석 및 AI 코칭 플랫폼
+<a href="https://github.com/chl4890620123-collab/Aitm">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=chl4890620123-collab&repo=Aitm&hide_border=true&description_lines_count=2" alt="AITM" />
+</a>
+<a href="https://github.com/chl4890620123-collab/Restok-Rangchain">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=chl4890620123-collab&repo=Restok-Rangchain&hide_border=true&description_lines_count=2" alt="Restok" />
+</a>
+
+<a href="https://github.com/chl4890620123-collab/maple">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=chl4890620123-collab&repo=maple&hide_border=true&description_lines_count=2" alt="Maple Craft Analytics" />
+</a>
+<a href="https://github.com/chl4890620123-collab/Server">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=chl4890620123-collab&repo=Server&hide_border=true&description_lines_count=2" alt="Server" />
+</a>
+
+</div>
+
+### 🥋 AITM — AI Taekwondo Master
 
 `React` `Spring Boot` `FastAPI` `MediaPipe` `OpenCV` `MariaDB` `Docker`
 
-- Pose 기반 관절 좌표 측정
-- 무릎 각도 / 회전 / 타이밍 / 착지 분석
-- 규칙 기반 점수 및 분석 신뢰도 검증
-- RAG + LLM 코칭
-- 영상 Pose Overlay 및 Slow Replay
+영상에서 Pose 관절 좌표를 측정하고 무릎 각도, 회전, 타이밍, 착지 등을 분석해 **측정 근거가 남는 AI 태권도 코칭**을 구현하는 프로젝트입니다.
 
----
-
-### 📦 [Restok — Item Lifecycle Platform](https://github.com/chl4890620123-collab/Restok-Rangchain)
-
-> 물건의 등록부터 사용·판매·기부·재활용·폐기까지 관리하는 서비스
+### 📦 Restok — Item Lifecycle Platform
 
 `React` `Spring Boot` `FastAPI` `Gemini` `MariaDB` `Docker`
 
-- URL-first Connector
-- 물품 Lifecycle History
-- 영수증 이미지 AI 분석
-- Google OAuth / JWT
-- 사용자 데이터 기반 AI Assistant
-- Docker Compose 기반 통합 실행
+물건 등록부터 사용·판매·기부·재활용·폐기까지 이어지는 **물품 생애주기 관리 플랫폼**입니다. AI는 영수증 분석과 사용자 판단 보조에 활용합니다.
 
----
-
-### 🍁 [Maple Craft Analytics](https://github.com/chl4890620123-collab/maple)
-
-> 제작 아이템의 원가·판매가·수익성을 기록하고 분석하는 데이터 프로젝트
+### 🍁 Maple Craft Analytics
 
 `Python` `FastAPI` `MariaDB` `Docker` `GitHub Actions`
 
-- 재료 가격 및 가격 이력 관리
-- 제작비 / 판매 수수료 / 예상 수익 계산
-- 제작·판매 데이터 기록
-- 기간별 판매율 / 실현수익 Dashboard
-- Docker 기반 운영 배포 구조
+재료 가격, 제작비, 판매가, 수수료와 실현수익을 기록하고 분석하는 **데이터 기반 제작·판매 분석 프로젝트**입니다.
+
+### 🖥️ Server
+
+`Docker Compose` `GitHub Actions` `Reverse Proxy` `Deployment`
+
+여러 프로젝트의 운영 배포 구성을 중앙에서 관리하는 저장소입니다. 앱 저장소와 운영 환경을 분리해 배포 구조를 단순화하는 것을 목표로 합니다.
 
 ---
 
 ## 🛠 Tech Stack
 
+<div align="center">
+
 ### Backend
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+<img src="https://skillicons.dev/icons?i=java,spring,python,fastapi" alt="Backend skills" />
 
 ### Frontend
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-
-### AI
-
-![OpenAI](https://img.shields.io/badge/LLM-412991?style=for-the-badge&logo=openai&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge)
+<img src="https://skillicons.dev/icons?i=react,js,ts,html,css" alt="Frontend skills" />
 
 ### Database & Infra
 
-![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+<img src="https://skillicons.dev/icons?i=mysql,docker,githubactions,nginx,git,github" alt="Infra skills" />
 
----
+### AI / Computer Vision
 
-## 🧩 How I Build
-
-```text
-Idea
-  ↓
-Problem Definition
-  ↓
-Frontend
-  ↓
-Backend API
-  ↓
-AI Service
-  ↓
-Database
-  ↓
-Docker
-  ↓
-CI / CD
-  ↓
-Real Server
-```
-
-> **AI를 보여주기 위한 프로젝트보다, 실제로 사용할 수 있는 서비스를 만드는 것을 목표로 합니다.**
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=chl4890620123-collab&show_icons=true&hide_border=true" alt="GitHub Stats" />
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chl4890620123-collab&layout=compact&hide_border=true" alt="Top Languages" />
+<img src="https://img.shields.io/badge/LLM-412991?style=for-the-badge&logo=openai&logoColor=white" alt="LLM" />
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge" alt="LangChain" />
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
+<img src="https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge" alt="MediaPipe" />
 
 </div>
 
 ---
 
+## 📊 GitHub Activity
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=chl4890620123-collab&show_icons=true&hide_border=true&rank_icon=github" alt="GitHub Stats" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chl4890620123-collab&layout=compact&hide_border=true&langs_count=8" alt="Top Languages" />
+
+<br/>
+
+<img width="70%" src="https://streak-stats.demolab.com?user=chl4890620123-collab&hide_border=true" alt="GitHub Streak" />
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chl4890620123-collab/chl4890620123-collab/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chl4890620123-collab/chl4890620123-collab/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/chl4890620123-collab/chl4890620123-collab/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
+
+---
+
+## 🧩 How I Build
+
+```mermaid
+graph LR
+    A[Idea] --> B[Problem Definition]
+    B --> C[Frontend]
+    C --> D[Backend API]
+    D --> E[AI Service]
+    D --> F[Database]
+    E --> D
+    D --> G[Docker]
+    F --> G
+    G --> H[CI / CD]
+    H --> I[Real Server]
+```
+
 <div align="center">
 
 ### 🚀 Build · Connect · Deploy
 
-**AI와 실제 서비스를 연결하는 개발자가 되어가는 중입니다.**
+**AI를 보여주기 위한 프로젝트보다 실제로 사용할 수 있는 서비스를 만드는 것을 목표로 합니다.**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer" width="100%" alt="footer" />
 
 </div>
