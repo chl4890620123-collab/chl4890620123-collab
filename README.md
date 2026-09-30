@@ -37,19 +37,23 @@ Idea → Frontend → Backend API → AI Service → Database → Docker → Dep
 
 <div align="center">
 
-<a href="https://github.com/chl4890620123-collab/Aitm">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=chl4890620123-collab&repo=Aitm&hide_border=true&description_lines_count=2" alt="AITM" />
-</a>
-<a href="https://github.com/chl4890620123-collab/Restok-Rangchain">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=chl4890620123-collab&repo=Restok-Rangchain&hide_border=true&description_lines_count=2" alt="Restok" />
-</a>
+<a href="https://github.com/chl4890620123-collab/Aitm"><img src="https://img.shields.io/badge/AITM-chl4890620123--collab%2FAitm-181717?style=for-the-badge&logo=github" alt="AITM" /></a>
+<img src="https://img.shields.io/github/languages/top/chl4890620123-collab/Aitm?style=for-the-badge" alt="AITM top language" />
+<img src="https://img.shields.io/github/last-commit/chl4890620123-collab/Aitm?style=for-the-badge" alt="AITM last commit" />
+<br/>
+<a href="https://github.com/chl4890620123-collab/Restok-Rangchain"><img src="https://img.shields.io/badge/Restok-chl4890620123--collab%2FRestok--Rangchain-181717?style=for-the-badge&logo=github" alt="Restok" /></a>
+<img src="https://img.shields.io/github/languages/top/chl4890620123-collab/Restok-Rangchain?style=for-the-badge" alt="Restok top language" />
+<img src="https://img.shields.io/github/last-commit/chl4890620123-collab/Restok-Rangchain?style=for-the-badge" alt="Restok last commit" />
+<br/>
 
-<a href="https://github.com/chl4890620123-collab/maple">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=chl4890620123-collab&repo=maple&hide_border=true&description_lines_count=2" alt="Maple Craft Analytics" />
-</a>
-<a href="https://github.com/chl4890620123-collab/Server">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=chl4890620123-collab&repo=Server&hide_border=true&description_lines_count=2" alt="Server" />
-</a>
+<a href="https://github.com/chl4890620123-collab/maple"><img src="https://img.shields.io/badge/Maple%20Craft%20Analytics-chl4890620123--collab%2Fmaple-181717?style=for-the-badge&logo=github" alt="Maple Craft Analytics" /></a>
+<img src="https://img.shields.io/github/languages/top/chl4890620123-collab/maple?style=for-the-badge" alt="Maple Craft Analytics top language" />
+<img src="https://img.shields.io/github/last-commit/chl4890620123-collab/maple?style=for-the-badge" alt="Maple Craft Analytics last commit" />
+<br/>
+<a href="https://github.com/chl4890620123-collab/Server"><img src="https://img.shields.io/badge/Server-chl4890620123--collab%2FServer-181717?style=for-the-badge&logo=github" alt="Server" /></a>
+<img src="https://img.shields.io/github/languages/top/chl4890620123-collab/Server?style=for-the-badge" alt="Server top language" />
+<img src="https://img.shields.io/github/last-commit/chl4890620123-collab/Server?style=for-the-badge" alt="Server last commit" />
+<br/>
 
 </div>
 
@@ -83,9 +87,10 @@ Idea → Frontend → Backend API → AI Service → Database → Docker → Dep
 
 <div align="center">
 
-<a href="https://github.com/aichallengers-hub/hub">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=aichallengers-hub&repo=hub&hide_border=true&description_lines_count=2" alt="AI Challengers Hub" />
-</a>
+<a href="https://github.com/aichallengers-hub/hub"><img src="https://img.shields.io/badge/AI%20Challengers%20Hub-aichallengers--hub%2Fhub-181717?style=for-the-badge&logo=github" alt="AI Challengers Hub" /></a>
+<img src="https://img.shields.io/github/languages/top/aichallengers-hub/hub?style=for-the-badge" alt="AI Challengers Hub top language" />
+<img src="https://img.shields.io/github/last-commit/aichallengers-hub/hub?style=for-the-badge" alt="AI Challengers Hub last commit" />
+<br/>
 
 </div>
 
@@ -128,12 +133,28 @@ Idea → Frontend → Backend API → AI Service → Database → Docker → Dep
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=chl4890620123-collab&show_icons=true&hide_border=true&rank_icon=github" alt="GitHub Stats" />
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chl4890620123-collab&layout=compact&hide_border=true&langs_count=8" alt="Top Languages" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chl4890620123-collab/chl4890620123-collab/main/profile-summary-card-output/github_dark/0-profile-details.svg" />
+  <img width="100%" alt="Profile Details" src="https://raw.githubusercontent.com/chl4890620123-collab/chl4890620123-collab/main/profile-summary-card-output/github/0-profile-details.svg" />
+</picture>
 
-<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chl4890620123-collab/chl4890620123-collab/main/profile-summary-card-output/github_dark/3-stats.svg" />
+  <img width="49%" alt="GitHub Stats" src="https://raw.githubusercontent.com/chl4890620123-collab/chl4890620123-collab/main/profile-summary-card-output/github/3-stats.svg" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chl4890620123-collab/chl4890620123-collab/main/profile-summary-card-output/github_dark/2-most-commit-language.svg" />
+  <img width="49%" alt="Most Commit Language" src="https://raw.githubusercontent.com/chl4890620123-collab/chl4890620123-collab/main/profile-summary-card-output/github/2-most-commit-language.svg" />
+</picture>
 
-<img width="70%" src="https://streak-stats.demolab.com?user=chl4890620123-collab&hide_border=true" alt="GitHub Streak" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chl4890620123-collab/chl4890620123-collab/main/profile-summary-card-output/github_dark/1-repos-per-language.svg" />
+  <img width="49%" alt="Repos per Language" src="https://raw.githubusercontent.com/chl4890620123-collab/chl4890620123-collab/main/profile-summary-card-output/github/1-repos-per-language.svg" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chl4890620123-collab/chl4890620123-collab/main/profile-summary-card-output/github_dark/4-productive-time.svg" />
+  <img width="49%" alt="Productive Time" src="https://raw.githubusercontent.com/chl4890620123-collab/chl4890620123-collab/main/profile-summary-card-output/github/4-productive-time.svg" />
+</picture>
 
 </div>
 
@@ -144,9 +165,9 @@ Idea → Frontend → Backend API → AI Service → Database → Docker → Dep
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chl4890620123-collab/chl4890620123-collab/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chl4890620123-collab/chl4890620123-collab/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/chl4890620123-collab/chl4890620123-collab/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chl4890620123-collab/chl4890620123-collab/gh-pages/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chl4890620123-collab/chl4890620123-collab/gh-pages/github-contribution-grid-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/chl4890620123-collab/chl4890620123-collab/gh-pages/github-contribution-grid-snake.svg" />
 </picture>
 
 </div>
