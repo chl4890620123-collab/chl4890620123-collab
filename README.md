@@ -79,6 +79,24 @@ Idea → Frontend → Backend API → AI Service → Database → Docker → Dep
 
 ---
 
+## 🏆 Organization
+
+<div align="center">
+
+<a href="https://github.com/aichallengers-hub/hub">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=aichallengers-hub&repo=hub&hide_border=true&description_lines_count=2" alt="AI Challengers Hub" />
+</a>
+
+</div>
+
+### 🤝 AI Challengers Hub
+
+`Organization` `AI` `Collaboration`
+
+[**aichallengers-hub**](https://github.com/aichallengers-hub) 조직의 중심 저장소입니다. AI 프로젝트와 챌린지를 함께 진행하고 결과물을 한곳에 모아 관리하는 허브 역할을 합니다.
+
+---
+
 ## 🛠 Tech Stack
 
 <div align="center">
