@@ -1,162 +1,101 @@
-<!-- Profile README for chl4890620123-collab -->
+# 명헌 | AI·백엔드 중심 서비스 개발
 
-<div align="center">
+AI 기능을 실제 업무 흐름에 연결하고, 사용자가 계속 쓸 수 있는 웹 서비스로 만드는 데 관심이 있습니다.  
+기획부터 화면과 API, 데이터 처리, 배포·운영 구조까지 이어지는 프로젝트를 만들고 개선합니다.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=210&text=MYUNGHEON&fontAlign=50&fontAlignY=38&desc=AI%20%C3%97%20Backend%20%C3%97%20Deployment&descAlign=50&descAlignY=58&animation=fadeIn" width="100%" alt="header" />
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&center=true&vCenter=true&width=760&lines=Building+AI-powered+services;Spring+Boot+%2B+FastAPI+%2B+MariaDB;From+idea+to+Docker+deployment;Build+%C2%B7+Connect+%C2%B7+Deploy" alt="Typing SVG" />
-</a>
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=chl4890620123-collab&label=PROFILE+VIEWS&style=flat-square" alt="Profile Views" />
-
-</div>
-
-## 👋 About Me
-
-안녕하세요, **명헌**입니다.
-
-저는 AI 기능을 데모에서 끝내지 않고 **실제로 사용할 수 있는 서비스 구조까지 연결하는 개발**을 좋아합니다.
-
-```text
-Idea → Frontend → Backend API → AI Service → Database → Docker → Deployment
-```
-
-- 🤖 AI 기능을 실제 서비스 흐름에 연결합니다.
-- ⚙️ Spring Boot / FastAPI 기반 백엔드 시스템을 구축합니다.
-- 🗄️ MariaDB를 활용해 데이터와 서비스 흐름을 설계합니다.
-- 🐳 Docker / GitHub Actions 기반 배포 자동화를 구성합니다.
-- 🔗 특정 API에 과도하게 종속되지 않는 낮은 결합도의 구조를 지향합니다.
-- 📊 단순한 LLM 응답보다 측정값·이력·근거가 남는 시스템을 선호합니다.
+- **관심 분야:** AI 서비스, 백엔드 개발, 업무 자동화, 데이터 처리, 배포·운영
+- **주요 기술:** Java, Spring Boot, Python, FastAPI, React, TypeScript, MariaDB, PostgreSQL, Docker
+- **활동:** 개인 및 협업 프로젝트
+- **연락:** GitHub 프로필을 통해 메시지를 보내 주세요.
 
 ---
 
-## 🚀 Featured Projects
+## 대표 프로젝트
 
-<div align="center">
+### [Hub — 사내 업무 AI 허브](https://github.com/chl4890620123-collab/hub)
 
-<a href="https://github.com/chl4890620123-collab/Aitm">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=chl4890620123-collab&repo=Aitm&hide_border=true&description_lines_count=2" alt="AITM" />
-</a>
-<a href="https://github.com/chl4890620123-collab/Restok-Rangchain">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=chl4890620123-collab&repo=Restok-Rangchain&hide_border=true&description_lines_count=2" alt="Restok" />
-</a>
+문서와 회의 자료를 검색하는 데서 끝나지 않고, 근거 확인부터 업무 배정과 결과 검토까지 연결하는 업무 플랫폼입니다.
 
-<a href="https://github.com/chl4890620123-collab/maple">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=chl4890620123-collab&repo=maple&hide_border=true&description_lines_count=2" alt="Maple Craft Analytics" />
-</a>
-<a href="https://github.com/chl4890620123-collab/Server">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=chl4890620123-collab&repo=Server&hide_border=true&description_lines_count=2" alt="Server" />
-</a>
+- 문서·회의·연결 서비스의 자료를 검색하고, 답변을 원문 근거와 연결하는 흐름
+- AI가 만든 업무 후보를 검토한 뒤 담당자 지정, 제출, 관리자 승인으로 이어지는 역할 기반 업무 흐름
+- Spring Boot 백엔드, React·TypeScript 웹 화면, FastAPI AI 서비스를 나눈 구조
+- Docker와 GitHub Actions를 이용한 검증·배포 구성
 
-</div>
+**기술:** Java · Spring Boot · React · TypeScript · Python · FastAPI · PostgreSQL · Docker · GitHub Actions
 
-### 🥋 AITM — AI Taekwondo Master
+### [AITM — AI 태권도 동작 분석](https://github.com/chl4890620123-collab/Aitm)
 
-`React` `Spring Boot` `FastAPI` `MediaPipe` `OpenCV` `MariaDB` `Docker`
+영상에서 포즈와 관절 좌표를 분석하고, 측정 기준과 결과 근거를 함께 보여 주는 태권도 코칭 보조 서비스입니다.
 
-영상에서 Pose 관절 좌표를 측정하고 무릎 각도, 회전, 타이밍, 착지 등을 분석해 **측정 근거가 남는 AI 태권도 코칭**을 구현하는 프로젝트입니다.
+- MediaPipe와 OpenCV를 활용한 동작·관절 분석
+- 무릎 각도, 회전, 타이밍, 착지 등 측정값을 기준으로 점수 계산
+- 신뢰도가 낮은 분석은 결과를 확정하지 않고 검토가 필요한 상태로 구분
+- 문제 시점의 영상과 포즈 오버레이를 확인할 수 있는 결과 흐름
 
-### 📦 Restok — Item Lifecycle Platform
+**기술:** Java · Spring Boot · React · Python · FastAPI · MediaPipe · OpenCV · MariaDB · Docker
 
-`React` `Spring Boot` `FastAPI` `Gemini` `MariaDB` `Docker`
+### [Restok — 물품 생애주기 관리](https://github.com/chl4890620123-collab/Restok-Rangchain)
 
-물건 등록부터 사용·판매·기부·재활용·폐기까지 이어지는 **물품 생애주기 관리 플랫폼**입니다. AI는 영수증 분석과 사용자 판단 보조에 활용합니다.
+물품의 등록부터 사용, 판매, 기부, 재활용, 폐기까지 이력을 기록하고 관리하는 플랫폼입니다.
 
-### 🍁 Maple Craft Analytics
+- 외부 서비스를 URL로 등록하는 방식으로 다양한 처리 경로 지원
+- 영수증 분석과 보유·처리 이력 기반 AI 보조 기능
+- React, Spring Boot, FastAPI를 분리하고 Docker 환경에서 연결
+- 로그인 사용자별 물품 접근과 운영 데이터 분리를 고려한 구조
 
-`Python` `FastAPI` `MariaDB` `Docker` `GitHub Actions`
+**기술:** Java · Spring Boot · React · FastAPI · Gemini · MariaDB · Docker
 
-재료 가격, 제작비, 판매가, 수수료와 실현수익을 기록하고 분석하는 **데이터 기반 제작·판매 분석 프로젝트**입니다.
+### [Maple Craft Analytics — 제작·판매 분석](https://github.com/chl4890620123-collab/maple)
 
-### 🖥️ Server
+메이플스토리 전문기술 제작품의 재료비와 판매 기록을 관리하고 실제 수익을 분석하는 프로젝트입니다.
 
-`Docker Compose` `GitHub Actions` `Reverse Proxy` `Deployment`
+- 재료·판매 가격과 가격 변경 이력 관리
+- 레시피 기반 제작비, 수수료, 예상 수익 계산
+- 실제 제작·판매 기록을 바탕으로 예상과 실현 수익 비교
+- SQLite 회귀 테스트와 MariaDB 통합 테스트를 포함한 CI 구성
 
-여러 프로젝트의 운영 배포 구성을 중앙에서 관리하는 저장소입니다. 앱 저장소와 운영 환경을 분리해 배포 구조를 단순화하는 것을 목표로 합니다.
+**기술:** Python · FastAPI · MariaDB · SQLite · Docker · GitHub Actions
 
----
+### [Server — 중앙 운영 인프라](https://github.com/chl4890620123-collab/Server)
 
-## 🛠 Tech Stack
+여러 애플리케이션의 운영 구성을 관리하는 인프라 저장소입니다.
 
-<div align="center">
+- 앱 코드와 운영 환경 설정의 책임 분리
+- Docker Compose, Caddy, 배포·검증 스크립트 관리
+- 운영 데이터와 비밀 설정을 소스 코드에서 분리
+- 배포 전후 상태와 애플리케이션·인프라 변경을 확인하는 흐름
 
-### Backend
-
-<img src="https://skillicons.dev/icons?i=java,spring,python,fastapi" alt="Backend skills" />
-
-### Frontend
-
-<img src="https://skillicons.dev/icons?i=react,js,ts,html,css" alt="Frontend skills" />
-
-### Database & Infra
-
-<img src="https://skillicons.dev/icons?i=mysql,docker,githubactions,nginx,git,github" alt="Infra skills" />
-
-### AI / Computer Vision
-
-<img src="https://img.shields.io/badge/LLM-412991?style=for-the-badge&logo=openai&logoColor=white" alt="LLM" />
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge" alt="LangChain" />
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
-<img src="https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge" alt="MediaPipe" />
-
-</div>
+**기술:** Docker Compose · Caddy · GitHub Actions · PowerShell
 
 ---
 
-## 📊 GitHub Activity
+## 기술
 
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=chl4890620123-collab&show_icons=true&hide_border=true&rank_icon=github" alt="GitHub Stats" />
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chl4890620123-collab&layout=compact&hide_border=true&langs_count=8" alt="Top Languages" />
-
-<br/>
-
-<img width="70%" src="https://streak-stats.demolab.com?user=chl4890620123-collab&hide_border=true" alt="GitHub Streak" />
-
-</div>
+| 분야 | 사용 기술 |
+| --- | --- |
+| 백엔드 | Java, Spring Boot, Python, FastAPI |
+| 프론트엔드 | React, TypeScript, JavaScript, HTML, CSS |
+| 데이터베이스 | MariaDB, PostgreSQL, SQLite |
+| AI·데이터 | MediaPipe, OpenCV, LangChain, RAG, 문서·음성 처리 |
+| 배포·협업 | Docker, Docker Compose, GitHub Actions, Git |
 
 ---
 
-## 🐍 Contribution Snake
+## 개발할 때 중요하게 보는 점
 
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chl4890620123-collab/chl4890620123-collab/main/dist/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chl4890620123-collab/chl4890620123-collab/main/dist/github-contribution-grid-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/chl4890620123-collab/chl4890620123-collab/main/dist/github-contribution-grid-snake.svg" />
-</picture>
-
-</div>
+- AI 결과를 바로 확정하지 않고, 사용자가 근거를 확인하고 판단할 수 있게 합니다.
+- 기능을 화면에서 끝내지 않고 API, 데이터 저장, 권한, 운영 흐름까지 연결합니다.
+- 실패와 진행 상태를 드러내고, 재시도와 검증이 가능한 구조를 만듭니다.
+- 운영 비밀 정보와 사용자 데이터를 코드 및 배포 설정과 분리합니다.
 
 ---
 
-## 🧩 How I Build
+## GitHub
 
-```mermaid
-graph LR
-    A[Idea] --> B[Problem Definition]
-    B --> C[Frontend]
-    C --> D[Backend API]
-    D --> E[AI Service]
-    D --> F[Database]
-    E --> D
-    D --> G[Docker]
-    F --> G
-    G --> H[CI / CD]
-    H --> I[Real Server]
-```
+프로젝트의 코드와 실행·설계 내용은 각 저장소 README에서 확인할 수 있습니다.
 
-<div align="center">
-
-### 🚀 Build · Connect · Deploy
-
-**AI를 보여주기 위한 프로젝트보다 실제로 사용할 수 있는 서비스를 만드는 것을 목표로 합니다.**
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer" width="100%" alt="footer" />
-
-</div>
+- [Hub](https://github.com/chl4890620123-collab/hub)
+- [AITM](https://github.com/chl4890620123-collab/Aitm)
+- [Restok](https://github.com/chl4890620123-collab/Restok-Rangchain)
+- [Maple Craft Analytics](https://github.com/chl4890620123-collab/maple)
+- [Server Infrastructure](https://github.com/chl4890620123-collab/Server)
