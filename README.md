@@ -19,7 +19,6 @@ AI 서비스뿐 아니라 가족 안전, 건설 현장 안전, 시민 서비스,
 | --- | --- | --- |
 | 가족·디지털 안전 | [닿음 (Dahum)](https://github.com/EST-AI-Challengers-31/saver) | 부모님의 스마트폰 위험 정보를 가족이 함께 확인하고 이해하기 쉬운 대응 행동으로 연결하는 모바일 웹 MVP |
 | 건설 현장 안전 | [SafeStack Weather Guard](https://github.com/chl4890620123-collab/Star-Developer-2648) | 현장 자재·고정 상태와 풍속 예보를 결합해 강풍에 따른 적재물 위험을 확인하는 시스템 |
-| 시민 서비스 | 서울이어 | 돌봄·복지·일자리·문화·안전 정보를 시민의 상황에 맞춰 찾고, 접근성 높은 안내와 절차를 제공하는 서비스 프로토타입 |
 | 사내 업무 AI | [Hub](https://github.com/chl4890620123-collab/hub) | 문서·회의 검색을 원문 근거 확인, 담당자 업무, 제출·관리자 승인까지 연결 |
 | 이동 현장 지식 | [MOVE AI](https://github.com/HyejiShin-20/MOVEAI) | 기사님의 음성·텍스트 경험을 구조화·검수해 조건에 맞는 현장 지식으로 다시 제공 |
 | 태권도 동작 분석 | [AITM](https://github.com/chl4890620123-collab/Aitm) | 영상의 관절 움직임을 측정하고 근거와 함께 점수·코칭을 제공 |
@@ -63,95 +62,6 @@ AI 서비스뿐 아니라 가족 안전, 건설 현장 안전, 시민 서비스,
 
 **기술:** TypeScript · 기상 API · Python 분석 검증
 
-### 🏙️ 서울이어 — 시민 생활·안전 서비스 통합
-
-돌봄·복지·일자리·문화·안전 정보를 시민 관점에서 찾고, 필요한 다음 절차로 이어 주는 통합 서비스 프로토타입입니다.
-
-- 여러 기관과 서비스에 흩어진 정보를 분야별로 모아 탐색
-- 고령자·장애인도 쓰기 쉽도록 모바일 화면과 큰 터치 영역을 고려
-- 긴급 연락처와 공식 안내, 단계별 안전 절차 제공
-- 자동 제출이나 신청을 임의로 진행하지 않고 사용자가 확인하는 흐름
-
-**중점:** 시민 중심 UX · 공공데이터 활용 · 접근성 · 안전한 절차 안내
-
-### 🧭 [Hub — 사내 업무 AI 허브](https://github.com/chl4890620123-collab/hub)
-
-흩어진 문서·회의 자료의 검색을 실제 업무 처리까지 연결하는 플랫폼입니다.
-
-- 검색 답변을 원문 근거와 연결해 사용자가 확인하도록 구성
-- AI 후보 검토, 담당자 지정, 결과 제출, 관리자 승인으로 이어지는 업무 흐름
-- Spring Boot 백엔드, React·TypeScript 화면, FastAPI AI 서비스 분리
-- Docker와 GitHub Actions를 활용한 검증·배포 구성
-
-**기술:** Java · Spring Boot · React · TypeScript · Python · FastAPI · PostgreSQL · Docker · GitHub Actions
-
-### 🚚 [MOVE AI — 현장 경험 지식화](https://github.com/HyejiShin-20/MOVEAI)
-
-기사님의 음성·텍스트 경험을 검수 가능한 지식으로 바꾸고, 상황에 맞는 정보를 다시 제공하는 프로젝트입니다.
-
-- 현장 제보를 STT와 추출 과정을 거쳐 위치·차량·시간·주의사항 단위로 구조화
-- 원문에 없는 숫자나 경로를 보태지 않고, 사람이 확인한 지식만 안내에 사용
-- 명확한 조건은 규칙으로, 맥락과 의미는 벡터 검색으로 처리하는 Hybrid RAG 방향
-- 프로젝트에서 백엔드 연결, Docker 구성, CI/CD와 배포·운영 흐름을 다룸
-
-**기술:** React · Spring Boot · FastAPI · MariaDB · STT · Embedding · Hybrid RAG · Docker
-
-### 🥋 [AITM — AI 태권도 동작 분석](https://github.com/chl4890620123-collab/Aitm)
-
-영상의 포즈와 관절 좌표를 분석해 태권도 동작을 측정하고 코칭 정보를 제공합니다.
-
-- MediaPipe와 OpenCV 기반 동작·관절 분석
-- 무릎 각도, 회전, 타이밍, 착지 등의 측정값으로 점수 산출
-- 분석 신뢰도에 따라 결과 확정과 검토 필요 상태 구분
-- 포즈 오버레이와 문제 시점 느린 재생으로 결과 근거 확인
-
-**기술:** Java · Spring Boot · React · Python · FastAPI · MediaPipe · OpenCV · MariaDB · Docker
-
-### 📦 [Restok — 물품 생애주기 관리](https://github.com/chl4890620123-collab/Restok-Rangchain)
-
-물류·재고 업무에서 본 낭비와 불편을 바탕으로 만든 URL 중심 플랫폼입니다.
-
-- 입고·출고와 상품 정보를 기록하고, 사용자가 기본값을 수정해 상세 정보를 관리
-- 시간 기준 처리와 자동 정리를 포함한 반자동 관리 흐름
-- 거래처·판매처 등의 URL을 사용자가 직접 등록해 처리 경로를 선택
-- 대시보드와 상세 화면에서 보유 물품과 처리 이력 확인
-- 영수증 분석과 보유 데이터 기반 AI 보조 기능
-
-**기술:** Java · Spring Boot · React · FastAPI · Gemini · MariaDB · Docker
-
-### 🍁 [Maple Craft Analytics — 제작·판매 분석](https://github.com/chl4890620123-collab/maple)
-
-메이플스토리 제작품의 재료비, 판매가와 실제 거래 이력을 관리합니다.
-
-- 레시피 기반 제작비, 수수료와 예상 수익 계산
-- 재료·판매 가격 이력과 실제 제작·판매 기록 저장
-- 예상 수익과 실현 수익을 비교해 추천을 보정
-- SQLite 회귀 테스트, MariaDB 통합 테스트, Docker 빌드 CI 구성
-
-**기술:** Python · FastAPI · MariaDB · SQLite · Docker · GitHub Actions
-
-### ☁️ [한스푼 — AWS Cloud·DevOps](https://github.com/chl4890620123-collab/hanspoon-frontend) · [Backend](https://github.com/chl4890620123-collab/hanspoonbackend)
-
-웹 애플리케이션의 AWS 인프라와 자동 배포 흐름을 구성한 프로젝트입니다.
-
-- Terraform으로 EC2·RDS·네트워크와 보안 그룹 구성
-- GitHub Actions의 빌드와 배포를 분리해 운영 서버의 빌드 부담을 줄임
-- Nginx·systemd·Health Check 기반 실행·릴리스 확인
-- Secret과 네트워크 접근을 분리해 DB를 외부에서 직접 공개하지 않도록 구성
-
-**기술:** AWS · Terraform · EC2 · RDS · GitHub Actions · Nginx · systemd
-
-### 🖥️ [Server — 중앙 운영 인프라](https://github.com/chl4890620123-collab/Server)
-
-앱 코드와 운영 환경을 분리하고 여러 서비스의 배포 구성을 관리합니다.
-
-- Docker Compose, Caddy, 배포·검증 스크립트 관리
-- 운영 데이터와 비밀 설정을 소스 코드에서 분리
-- 배포 전후 상태를 점검하는 검증 흐름 구성
-
-**기술:** Docker Compose · Caddy · GitHub Actions · PowerShell
-
----
 
 ## 경력
 
