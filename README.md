@@ -25,7 +25,7 @@ AI 서비스뿐 아니라 가족 안전, 건설 현장 안전, 시민 서비스,
 | 태권도 동작 분석 | [AITM](https://github.com/chl4890620123-collab/Aitm) | 영상의 관절 움직임을 측정하고 근거와 함께 점수·코칭을 제공 |
 | 물품 생애주기 | [Restok](https://github.com/chl4890620123-collab/Restok-Rangchain) | 물품 등록부터 사용·판매·기부·재활용·폐기까지 이력 관리 |
 | 제작·판매 분석 | [Maple Craft Analytics](https://github.com/chl4890620123-collab/maple) | 제작비·수수료·예상 수익과 실제 판매 이력을 계산·분석 |
-| 클라우드·DevOps | 한스푼 | AWS 인프라, 보안 설정, CI/CD와 헬스체크 기반 배포 흐름 구성 |
+| 클라우드·DevOps | [한스푼](https://github.com/chl4890620123-collab/hanspoon-frontend) | AWS 인프라, 보안 설정, CI/CD와 헬스체크 기반 배포 흐름 구성 |
 | 운영 인프라 | [Server](https://github.com/chl4890620123-collab/Server) | 여러 앱의 Docker 운영 구성과 배포·검증을 관리 |
 
 ### 프로젝트 전반에서 다룬 내용
@@ -130,7 +130,7 @@ AI 서비스뿐 아니라 가족 안전, 건설 현장 안전, 시민 서비스,
 
 **기술:** Python · FastAPI · MariaDB · SQLite · Docker · GitHub Actions
 
-### ☁️ 한스푼 — AWS Cloud·DevOps
+### ☁️ [한스푼 — AWS Cloud·DevOps](https://github.com/chl4890620123-collab/hanspoon-frontend) · [Backend](https://github.com/chl4890620123-collab/hanspoonbackend)
 
 웹 애플리케이션의 AWS 인프라와 자동 배포 흐름을 구성한 프로젝트입니다.
 
